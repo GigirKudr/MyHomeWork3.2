@@ -3,7 +3,5 @@ public class Main {
         BmiService service = new BmiService();
         int e = (int) service.calculate(1.87, 98);
         System.out.println(e);
-
-
     }
 }
